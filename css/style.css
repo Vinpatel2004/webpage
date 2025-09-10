@@ -1,0 +1,101 @@
+/*
+Full Name: Vin Sanjaykumar Patel
+File: style.css
+GUI Assignment: Creating Your First Web Page
+Email: vin_patel@student.uml.edu
+Date: Sept 9, 2025
+Copyright (c) 2025 by Vin. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+
+Description: It is a stylesheet for my intro webpage that includes fonts, color, and
+layout the design for tables and the page itself.
+*/
+
+/* Overall page style */
+body {
+    font-family:cursive;
+    background-color: black;
+}
+
+
+.A1 h1 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 80px;
+    color:gray;
+    text-decoration: underline red;
+    font-style: italic;
+    width: 70%;
+    display:inline-flex;
+    padding: 0 10px;
+
+}
+
+.profile-pic{
+    float: left;
+    width: 20%;
+    height:auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid grey;
+}
+
+/*sub-headings*/
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    color:gray;
+    border-bottom: 2px solid red;
+    display:flex;
+    
+}
+
+.A2 {
+    width: 99%;
+}
+
+p, li {
+    color:aliceblue;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+
+    color: red;
+}
+
+/*work experience table */
+table {
+    width: 600px;
+    margin: 20px 0;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(252, 1, 1, 0.5);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align:center;
+}
+
+th {
+    background-color: red;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tr:hover {
+    background-color: gray;
+}
+
+
+.car-pic {
+    width: 20%;
+    height: auto;
+}
