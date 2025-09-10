@@ -99,3 +99,7 @@ tr:hover {
     width: 20%;
     height: auto;
 }
+
+.image2 {
+    display: flexed ;
+}
