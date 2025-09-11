@@ -100,6 +100,11 @@ tr:hover {
     height: auto;
 }
 
-.image2 {
+.image1 {
     display: flex;
+}
+
+.image2 {
+    margin-top: 20px;
+    margin-left: 20px;
 }
